@@ -10,13 +10,31 @@ import Games from './components/Games';
 import Podcasts from './components/Podcasts';
 import Home from './components/Home';
 
+const articles = [
+  {
+    category: "Apps",
+    title: "Broke a Glass? Someday You Might 3-D-Print a New One"
+  },
+  {
+    category: "Games",
+    title: "This Is a Giant Shipworm. You May Wish It Had Stayed In Its Tube."
+  },
+  {
+    category: "Editors Pick",
+    title: "For Families of Teens at Microsoft Surface"
+  },
+  {
+    category: "Editors Pick",
+    title: "Why Netflix shares are down 10%"
+  }
+];
 
 function App() {
   return (
     <Router>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home articles={articles} />} />
         <Route path="/technology" element={<Technology />} />
         <Route path="/gadgets" element={<Gadgets />} />
         <Route path="/software" element={<Software />} />v
