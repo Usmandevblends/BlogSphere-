@@ -33,7 +33,7 @@ function TechReview() {
       <div className="container mx-auto mt-20">
         <div className="grid grid-cols-12 gap-5">
           {Tech.map((item, index) => (
-            <div className="col-span-12 lg:col-span-4" key={index}>
+            <div className="col-span-12 lg:col-span-4 sm:px-5" key={index}>
               <div className="flex flex-col gap-5">
                 <div className="img">
                   <img src={item.imageUrl} alt={item.title} />
