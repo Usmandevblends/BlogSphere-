@@ -1,8 +1,11 @@
 import React from 'react';
+import TechBanner from './TechBanner';
 
 function Technology() {
   return (
-    <div>This is Technology page</div>  
+    <>
+      <TechBanner />
+    </>
   );
 }
 
