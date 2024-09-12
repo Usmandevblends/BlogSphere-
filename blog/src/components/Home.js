@@ -2,6 +2,7 @@ import React from "react";
 import Blog from "./Blog";
 import Banner from "./Banner";
 import TechReview from "./TechReview";
+import Footer from "./Footer";
 
 function Home({ articles }) {
   return (
@@ -9,6 +10,7 @@ function Home({ articles }) {
       <Banner articles={articles} />
       <Blog />
       <TechReview />
+      <Footer />
     </>
   );
 }
