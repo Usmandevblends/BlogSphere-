@@ -46,11 +46,12 @@ function Blog() {
                   </div>
                 ))}
               </div>
+              <br></br>
               <hr />
             </div>
             <div className="lg:col-span-4 col-span-12 sm:auto">
               <div className="flex items-center justify-center">
-                <div className=" p-6 rounded-lg shadow-md">
+                <div className=" p-6  border-gray-300">
                   <div className="flex items-center mb-4">
                     <div className="bg-purple-500 p-2 rounded-full">
                       <i className="fas fa-envelope text-white"></i>
