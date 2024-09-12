@@ -10,8 +10,8 @@ function TechBanner() {
         }}
       >
         <div className="container mx-auto">
-          <div className="tech-content relative flex flex-col items-center justify-center">
-            <h2 className="text-white text-3xl font-semibold">Shaping the Future of Technology</h2>
+          <div className="tech-content relative">
+            <h2 className="text-white sm:text-xl lg:text-3xl font-semibold text-center">Shaping the Future of Technology</h2>
           </div>
         </div>
       </div>

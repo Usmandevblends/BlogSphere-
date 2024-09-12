@@ -44,16 +44,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 999;
 }
 
 .tech-content {
     z-index: 1000 !important;
     padding: 190px 0px
-}
-.tech-content h4 {
-    
 }
 @media (max-width: 576px) {
     .post-wrapper {
