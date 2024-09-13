@@ -5,8 +5,8 @@ function Footer() {
     <>
       <footer class="bg-[#805aed] py-8 mt-20">
         <div class="container mx-auto px-4">
-        <div class="grid lg:grid-cols-4 md:grid-cols-6 gap-8 sm:grid-cols-1">
-            <div >
+        <div class="grid col-span-12 lg:grid-cols-4 md:grid-cols-6 gap-20">
+            <div className="px-5" >
               <h3 class="text-lg font-semibold mb-4 text-white">Company</h3>
               <ul>
                 <li class="mb-2">
@@ -31,7 +31,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="px-5">
               <h3 class="text-lg font-semibold mb-4 text-white">Get Help</h3>
               <ul>
                 <li class="mb-2">
@@ -61,7 +61,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="px-5">
               <h3 class="text-lg font-semibold mb-4 text-white">Online Shop</h3>
               <ul>
                 <li class="mb-2">
@@ -87,8 +87,8 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h3 class="text-lg font-semibold mb-4 text-white">Follow Us</h3>
-              <div class="flex space-x-4">
+              <h3 class="text-lg font-semibold mb-4 text-white px-5">Follow Us</h3>
+              <div class="flex space-x-4 px-5">
                 <a href="#" class="text-white hover:text-white">
                   <i class="fab fa-facebook-f"></i>
                 </a>

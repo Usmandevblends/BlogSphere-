@@ -9,6 +9,7 @@ import Software from './components/Software';
 import Games from './components/Games';
 import Podcasts from './components/Podcasts';
 import Home from './components/Home';
+import Error from './components/Error';
 
 const articles = [
   {
@@ -40,6 +41,7 @@ function App() {
         <Route path="/software" element={<Software />} />v
         <Route path="/games" element={<Games />} />
         <Route path="/podcasts" element={<Podcasts />} />
+        <Route path="/Error" element={<Error />} />
       </Routes>
     </Router>
   );
