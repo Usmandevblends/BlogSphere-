@@ -31,7 +31,7 @@ function TechReview() {
   return (
     <section className="TechReview">
       <div className="container mx-auto mt-20">
-        <div className="grid grid-cols-12 gap-5">
+        <div className="grid grid-cols-12 gap-5 px-5">
           {Tech.map((item, index) => (
             <div className="col-span-12 lg:col-span-4 sm:px-5" key={index}>
               <div className="flex flex-col gap-5">

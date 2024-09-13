@@ -5,8 +5,8 @@ function Footer() {
     <>
       <footer class="bg-[#805aed] py-8 mt-20">
         <div class="container mx-auto px-4">
-          <div class="grid grid-cols-4 gap-8">
-            <div>
+        <div class="grid lg:grid-cols-4 md:grid-cols-6 gap-8 sm:grid-cols-1">
+            <div >
               <h3 class="text-lg font-semibold mb-4 text-white">Company</h3>
               <ul>
                 <li class="mb-2">
@@ -103,7 +103,7 @@ function Footer() {
                 </a>
               </div>
             </div>
-          </div>
+            </div>
         </div>
       </footer>
     </>

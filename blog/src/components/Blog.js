@@ -25,33 +25,34 @@ function Blog() {
   return (
     <>
       <section className="Blog">
-        <div className="container mx-auto mt-10">
-          <div className="grid sm:grid-cols-12 gap-5">
+        <div className="container mx-auto mt-10 px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-12 gap-5">
+            {/* Main Content */}
             <div className="lg:col-span-8 col-span-12">
               <div className="flex items-center justify-between pb-5">
-                <h4 className=" text-xl font-semibold">Editor’s Pick</h4>
+                <h4 className="text-xl font-semibold">Editor’s Pick</h4>
                 <span className="text-[#805aed] font-semibold">
-                  ViewAll <i class="fa-solid fa-arrow-right"></i>
+                  View All <i className="fa-solid fa-arrow-right"></i>
                 </span>
               </div>
-              <div className="grid sm:grid-cols-12 gap-5">
+              <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
                 {data.map((item, index) => (
-                  <div key={index} className="col-span-4">
+                  <div key={index} className="col-span-1">
                     <div className="card">
-                      <img className="" src={item.imageUrl} alt={item.title} />
-                      <h4 className=" w-100 pt-2 font-semibold px-1">
-                        {item.title}
-                      </h4>
+                      <img className="w-full h-auto" src={item.imageUrl} alt={item.title} />
+                      <h4 className="pt-2 font-semibold px-1">{item.title}</h4>
                     </div>
                   </div>
                 ))}
               </div>
-              <br></br>
+              <br />
               <hr />
             </div>
-            <div className="lg:col-span-4 col-span-12 sm:auto">
+
+            {/* Sidebar */}
+            <div className="lg:col-span-4 col-span-12">
               <div className="flex items-center justify-center">
-                <div className=" p-6  border-gray-300">
+                <div className="p-6 border-gray-300">
                   <div className="flex items-center mb-4">
                     <div className="bg-purple-500 p-2 rounded-full">
                       <i className="fas fa-envelope text-white"></i>
@@ -68,7 +69,7 @@ function Blog() {
                     placeholder="Email address"
                     className="w-full p-2 border border-gray-300 rounded mb-4"
                   />
-                  <button className="flex items-center justify-center bg-purple-500 text-white p-2 rounded-full">
+                  <button className="w-full bg-purple-500 text-white p-2 rounded-full">
                     Subscribe
                   </button>
                 </div>
