@@ -55,6 +55,10 @@ body {
     object-fit: cover;
 }
 
+hr {
+    margin-top: 10px;
+}
+
 .tech-content {
     z-index: 1000 !important;
     padding: 190px 0px;
@@ -65,7 +69,37 @@ body {
     line-height: 30px;
 }
 
-/* Existing breakpoint for tablets and small desktop screens */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     .blogpra {
@@ -102,25 +136,4 @@ body {
     .post-wrapper .content {
         padding-top: 200px !important;
     }
-}
-
-@media (min-width: 768px) {
-    .nav {
-      flex-direction: row;
-    }
-  }
-
-/* New breakpoint for medium desktop screens */
-@media (max-width: 992px) {
-    /* Add styles for medium desktop screens here */
-}
-
-/* New breakpoint for large desktop screens */
-@media (max-width: 1200px) {
-    /* Add styles for large desktop screens here */
-}
-
-/* New breakpoint for mobile devices */
-@media (max-width: 576px) {
-    /* Add styles for mobile devices here */
 }
