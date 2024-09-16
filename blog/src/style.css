@@ -68,10 +68,6 @@ body {
 /* Existing breakpoint for tablets and small desktop screens */
 
 @media (max-width: 768px) {
-    .post-wrapper {
-        margin-top: 0 !important;
-    }
-    
     .blogpra {
         width: 100%;
         line-height: 30px;
@@ -107,6 +103,12 @@ body {
         padding-top: 200px !important;
     }
 }
+
+@media (min-width: 768px) {
+    .nav {
+      flex-direction: row;
+    }
+  }
 
 /* New breakpoint for medium desktop screens */
 @media (max-width: 992px) {
