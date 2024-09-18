@@ -8,7 +8,6 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
 .post-wrapper {
@@ -70,7 +69,22 @@ hr {
 }
 
 
+/*  */
 
+.gadgets-banner {
+    background-image: url('https://img.freepik.com/premium-photo/modern-electronic-static-collection-system-futuristic-gadgets-showcases-lineup-sleek-modern-technological-devices_812236-1837.jpg');
+}
+
+.gadgets-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
 
 
 

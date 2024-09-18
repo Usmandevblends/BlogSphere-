@@ -4,7 +4,9 @@ import Gagetbanner from './Gagetbanner';
 function Gadgets() {
   return (
     <>
-       <Gagetbanner />
+      <div className=' bg-[#0a2351]'>
+        <Gagetbanner />
+      </div>
     </>
   );
 }
