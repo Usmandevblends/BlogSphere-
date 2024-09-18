@@ -1,11 +1,13 @@
 import React from 'react';
 import Gagetbanner from './Gagetbanner';
+import Gagetsblog from './Gagetsblog';
 
 function Gadgets() {
   return (
     <>
-      <div className=' bg-[#0a2351]'>
+      <div className=''>
         <Gagetbanner />
+        <Gagetsblog />
       </div>
     </>
   );

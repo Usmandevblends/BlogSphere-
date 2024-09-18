@@ -5,8 +5,9 @@ function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   // Toggle function to change the state
+
   const toggleMenu = () => {
-    setIsOpen(prevState => !prevState);
+    setIsOpen((prevState) => !prevState);
   };
 
   return (
@@ -20,7 +21,7 @@ function Navigation() {
                   UiFlow
                 </Link>
               </div>
-              <div className={`nav ${isOpen ? 'block' : 'hidden'} md:flex`}>
+              <div className={`nav ${isOpen ? "block" : "hidden"} md:flex`}>
                 <ul className="flex flex-col md:flex-row gap-5 pt-1 md:pt-0">
                   <li>
                     <Link
@@ -67,7 +68,9 @@ function Navigation() {
             </div>
             <div className="toggle-btn pt-1 md:hidden">
               <i
-                className={`fa fa-bars text-2xl cursor-pointer text-white ${isOpen ? 'fa-times' : 'fa-bars'}`}
+                className={`fa fa-bars text-2xl cursor-pointer text-white ${
+                  isOpen ? "fa-times" : "fa-bars"
+                }`}
                 onClick={toggleMenu}
               ></i>
             </div>
